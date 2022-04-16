@@ -2,6 +2,7 @@
     max-width: 1920px;
     width: 100%;
     display: flex;
+    flex-direction: column;
     margin: 0 auto;
 
 }
@@ -59,6 +60,8 @@
 }
 
 .slider-percentage {
+    max-width: 250px;
+    width: 100%;
     margin-top: 230px;
     margin-left: 60%;
 }
@@ -73,7 +76,7 @@
 }
 
 .slider-animation {
-    max-width: 340px;
+    max-width: 230px;
     width: 100%;
     height: 6px;
     background-color: rgb(235, 220, 220);
@@ -97,4 +100,155 @@
     to {
         width: 100%;
     }
+}
+
+.section2 {
+    display: flex;
+    max-width: 1920px;
+    width: 100%;
+}
+
+.sec2-1 {
+    margin-top: 218px;
+    max-width: 323px;
+    width: 100%;
+    margin-left: 19%;
+}
+
+.sec2-name {
+    font-size: 40px;
+}
+
+.sec2-prof {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #DAAE19;
+    margin-left: 190px;
+}
+
+.sec2-bio {
+    margin-top: 32px;
+    font-size: 15px;
+}
+
+.hire-button {
+    margin-top: 60px;
+    background-color: #E93656;
+    max-width: 152px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 27%;
+}
+
+.hire-word {
+    color: white;
+}
+
+.sec2-2 {
+    margin-top: 135px;
+    max-width: 430px;
+    width: 100%;
+}
+
+.mid-me {
+    border-radius: 5%;
+}
+
+.sec2-3 {
+    max-width: 735px;
+    width: 100%;
+    margin-left: 20px;
+}
+
+.animations {
+    max-width: 302px;
+    width: 100%;
+    max-height: 296px;
+    height: 100%;
+    margin-top: 194px;
+}
+
+.animation1 {
+    height: 6px;
+    width: 90%;
+    animation: animate1 6s;
+    position: relative;
+    background-color: #E93656;
+}
+
+@keyframes animate1 {
+    from {
+        width: 0px;
+    }
+
+    to {
+        width: 90%;
+    }
+}
+
+.slider-animation1 {
+    max-width: 230px;
+    width: 100%;
+    height: 6px;
+    background-color: #F0F0F0;
+    border-radius: 20px;
+    position: absolute;
+    display: flex;
+}
+
+.percantage {
+    margin-top: 10px;
+    color: rgb(190, 28, 28);
+}
+
+
+
+
+
+.animation2 {
+    margin-top: 20px;
+    height: 6px;
+    width: 90%;
+    animation: animate1 6s;
+    position: relative;
+    background-color: #a04f5f;
+}
+
+@keyframes animate2 {
+    from {
+        width: 0px;
+    }
+
+    to {
+        width: 90%;
+    }
+}
+
+.slider-animation2 {
+    margin-top: 100px;
+    max-width: 230px;
+    width: 100%;
+    height: 6px;
+    background-color: #F0F0F0;
+    border-radius: 20px;
+    position: absolute;
+    display: flex;
+}
+
+.slider-animation3 {
+    margin-top: 200px;
+    max-width: 230px;
+    width: 100%;
+    height: 6px;
+    background-color: #F0F0F0;
+    border-radius: 20px;
+    position: absolute;
+    display: flex;
+}
+
+.icons1 {
+    margin-left: 20px;
 }

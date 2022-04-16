@@ -13,3 +13,20 @@ setInterval(function () {
     dd++;
     document.querySelector('.section1').style.backgroundImage = `url('${backgroundImages[dd]}')`
 }, 4000)
+
+
+window.onload = function () {
+    let effect = document.querySelector('.sec2-3')
+    window.addEventListener('scroll', scrollEffect)
+    function scrollEffect() {
+        if (window.scrollY >= 820) {
+            effect.style.opacity = '1'
+            effect.style.transform = 'translateX(0px)'
+            effect.style.transition = '1s ease-in-out'
+        } else {
+            effect.style.opacity = '0'
+            effect.style.transform = 'translateX(-50px)'
+        }
+    }
+    scrollEffect()
+}
