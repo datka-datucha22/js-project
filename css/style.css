@@ -516,6 +516,11 @@
     display: none;
 }
 
+.sec4 {
+    display: flex;
+    justify-content: center;
+}
+
 .sec4-in7 {
     display: flex;
     flex-direction: column;
@@ -531,9 +536,4 @@
     height: 346px;
     background-color: #131A36;
     display: none;
-}
-
-.sec4 {
-    display: flex;
-    justify-content: center;
 }
