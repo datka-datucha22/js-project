@@ -341,10 +341,10 @@
 .sec4-shrink {
     margin-top: 203px;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     max-width: 1170px;
     width: 100%;
-    margin-left: 20%;
 }
 
 .line1 {
@@ -531,4 +531,9 @@
     height: 346px;
     background-color: #131A36;
     display: none;
+}
+
+.sec4 {
+    display: flex;
+    justify-content: center;
 }
