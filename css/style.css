@@ -537,3 +537,69 @@
     background-color: #131A36;
     display: none;
 }
+
+.sec5 {
+    max-width: 1920px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 225px;
+    padding-bottom: 225px;
+    margin-top: 160px;
+
+    background-image: url('/img/section5/rec-back.png');
+}
+
+.ph-word {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 28px;
+
+}
+
+.prof {
+    color: #E93656;
+    font-size: 13px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.sec5-name {
+    margin-left: 65px;
+}
+
+.recomendation {
+    font-size: 15px;
+    max-width: 504px;
+    width: 100%;
+    text-align: right;
+    color: white;
+}
+
+.rec-image {
+    border-radius: 50%;
+}
+
+.bullets {
+    display: flex;
+    flex-direction: column;
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: none;
+}
+
+.bullet {
+    width: 13px;
+    height: 13px;
+    border: #d6ddd9 solid 2px;
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    margin-top: 14px;
+}
+
+.active {
+    border: #E93656 solid 2px;
+    ;
+}
