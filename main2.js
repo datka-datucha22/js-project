@@ -75,3 +75,130 @@ function setActiveBullets() {
 
 }
 setActiveBullets()
+
+
+let all = document.querySelector('.all-word')
+let work = document.querySelector('.work-word')
+let mockup = document.querySelector('.mockup-word')
+let psd = document.querySelector('.psd-word')
+let logo = document.querySelector('.logo-word')
+let presentation = document.querySelector('.pres-word')
+let icons = document.querySelector('.icons-word')
+
+let projWord = document.querySelector('.proj-word')
+let projWord11 = document.querySelector('.proj-word11')
+let projWord22 = document.querySelector('.proj-word22')
+let projWord33 = document.querySelector('.proj-word33')
+let projWord44 = document.querySelector('.proj-word44')
+let projWord55 = document.querySelector('.proj-word55')
+
+
+function sec6click() {
+    work.addEventListener('click', function () {
+        projWord.style.display = 'flex'
+        projWord11.style.display = 'none'
+        projWord22.style.display = 'none'
+        projWord33.style.display = 'none'
+        projWord44.style.display = 'none'
+        projWord55.style.display = 'none'
+    })
+}
+sec6click()
+function sec6click11() {
+    mockup.addEventListener('click', function () {
+        projWord11.style.display = 'flex'
+        projWord.style.display = 'none'
+        projWord22.style.display = 'none'
+        projWord33.style.display = 'none'
+        projWord44.style.display = 'none'
+        projWord55.style.display = 'none'
+    })
+}
+sec6click11()
+function sec6click12() {
+    psd.addEventListener('click', function () {
+        projWord22.style.display = 'flex'
+        projWord.style.display = 'none'
+        projWord11.style.display = 'none'
+        projWord33.style.display = 'none'
+        projWord44.style.display = 'none'
+        projWord55.style.display = 'none'
+    })
+}
+sec6click12()
+function sec6click13() {
+    logo.addEventListener('click', function () {
+        projWord33.style.display = 'flex'
+        projWord.style.display = 'none'
+        projWord11.style.display = 'none'
+        projWord22.style.display = 'none'
+        projWord44.style.display = 'none'
+        projWord55.style.display = 'none'
+    })
+}
+sec6click13()
+function sec6click14() {
+    presentation.addEventListener('click', function () {
+        projWord44.style.display = 'flex'
+        projWord.style.display = 'none'
+        projWord11.style.display = 'none'
+        projWord22.style.display = 'none'
+        projWord33.style.display = 'none'
+        projWord55.style.display = 'none'
+    })
+}
+sec6click14()
+function sec6click15() {
+    icons.addEventListener('click', function () {
+        projWord55.style.display = 'flex'
+        projWord.style.display = 'none'
+        projWord11.style.display = 'none'
+        projWord22.style.display = 'none'
+        projWord33.style.display = 'none'
+        projWord44.style.display = 'none'
+    })
+}
+sec6click15()
+function sec6click6() {
+    all.addEventListener('click', function () {
+        projWord.style.display = 'none'
+        projWord11.style.display = 'none'
+        projWord22.style.display = 'none'
+        projWord33.style.display = 'none'
+        projWord44.style.display = 'none'
+        projWord55.style.display = 'none'
+    })
+}
+sec6click6()
+
+
+
+
+
+
+
+
+
+function sec6Project(a, b) {
+    a.addEventListener('mouseover', function () {
+        b.style.display = 'flex'
+    })
+    a.addEventListener('mouseleave', function () {
+        b.style.display = 'none'
+    })
+}
+let sec6Proj = document.querySelector('.sec6-proj')
+let sec6Proj11 = document.querySelector('.sec6-proj11')
+let sec6Proj22 = document.querySelector('.sec6-proj22')
+let sec6Proj33 = document.querySelector('.sec6-proj33')
+let sec6Proj44 = document.querySelector('.sec6-proj44')
+let sec6Proj55 = document.querySelector('.sec6-proj55')
+sec6Project(sec6Proj, projWord)
+sec6Project(sec6Proj11, projWord11)
+sec6Project(sec6Proj22, projWord22)
+sec6Project(sec6Proj33, projWord33)
+sec6Project(sec6Proj44, projWord44)
+sec6Project(sec6Proj55, projWord55)
+
+
+
