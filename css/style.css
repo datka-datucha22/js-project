@@ -548,8 +548,8 @@
     padding-top: 225px;
     padding-bottom: 225px;
     margin-top: 160px;
-    background-color: #8a36f8;
-    background-image: url('/img/section5/rec-back.png');
+    /* background-color: #8a36f8; */
+    background-image: url('../img/section5/rec-back.png');
 }
 
 .ph-word {
@@ -603,4 +603,21 @@
 .active {
     border: #E93656 solid 2px;
     ;
+}
+
+.sec6 {
+    max-width: 1920px;
+    width: 100%;
+}
+
+.sec6-shrink {
+    max-width: 1170px;
+    width: 100%;
+}
+
+.sec6-h {
+    max-width: 445px;
+    width: 100%;
+    font-size: 70px;
+    margin-left: 72%;
 }
