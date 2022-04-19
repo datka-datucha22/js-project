@@ -1,0 +1,59 @@
+@media (max-width:480px) {
+    #name {
+        font-size: 40px;
+    }
+
+    .slider-percentage {
+        margin-left: 100px;
+    }
+
+    .sec2-1 {
+        position: absolute;
+        margin-top: 350px;
+
+    }
+
+    .sec2-3 {
+        display: none;
+    }
+
+    .adress {
+        display: none;
+    }
+
+    .sec3-part1 {
+        margin: 0;
+    }
+
+    .sec7 {
+        display: none;
+    }
+
+    .section8 {
+        display: none;
+    }
+
+    .sec6-proj22 {
+        display: none;
+    }
+
+    .sec6-word-center {
+        width: 239px;
+    }
+
+    .sec6-projects {
+        margin: 0;
+    }
+
+    .sec6-proj33 {
+        display: none;
+    }
+
+    .sec6-proj44 {
+        display: none;
+    }
+
+    .sec6-proj55 {
+        display: none;
+    }
+}

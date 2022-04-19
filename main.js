@@ -15,6 +15,7 @@ setInterval(function () {
 }, 4000)
 
 
+
 window.onload = function () {
     let effect = document.querySelector('.sec2-3')
     window.addEventListener('scroll', scrollEffect)
