@@ -1009,3 +1009,99 @@
     justify-content: space-evenly;
 
 }
+
+.section9 {
+    max-width: 1920px;
+    width: 100%;
+    margin-top: 155px;
+    background-image: url(../img/section9/Clip.png);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.section9-1 {
+    max-width: 1920px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.sec9-header {
+    margin-top: 152px;
+    max-width: 438px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.sec9-contact {
+    font-size: 45px;
+}
+
+.under-contact {
+    font-size: 17px;
+
+}
+
+.first3 {
+    margin-top: 20px;
+    max-width: 290px;
+    width: 100%;
+    height: 50px;
+}
+
+.form {
+    max-width: 900px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.ff-center {
+    max-width: 1920px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.form1 {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.last {
+    max-width: 890px;
+    width: 100%;
+    height: 110px;
+}
+
+.message {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.send {
+    max-width: 1920px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    padding-bottom: 120px;
+}
+
+.butto {
+    border: #E93656 solid 2px;
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    width: 187px;
+    height: 50px;
+    color: #E93656;
+    cursor: pointer;
+}
