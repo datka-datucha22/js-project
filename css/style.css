@@ -961,3 +961,51 @@
     display: flex;
     justify-content: left;
 }
+
+.section8 {
+    margin-top: 279px;
+}
+
+.sec8-proj {
+    max-width: 230px;
+    width: 100%;
+    background-color: #ddd8d8;
+    border-radius: 10px;
+    height: 190px;
+}
+
+.sec8-pr1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec8-img {
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+.sec8-pr2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    display: none;
+    margin-top: 50px;
+    margin-left: 10px;
+
+}
+
+.sec8-proj:hover .sec8-img {
+    display: none;
+}
+
+.sec8-proj:hover .sec8-pr2 {
+    display: flex;
+}
+
+.sec8-projects {
+    margin-top: 81px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
