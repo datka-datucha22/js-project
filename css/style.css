@@ -657,6 +657,7 @@
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    /* remove wrap for responsive */
 }
 
 .sec6-proj {
@@ -829,4 +830,134 @@
     height: 100%;
     background-image: url('../img/section6/img1.jpg');
 
+}
+
+.sec7 {
+    margin-top: 279px;
+}
+
+.sec7-part {
+    max-width: 1750px;
+    width: 100%;
+    display: flex;
+    margin-top: 80px;
+}
+
+.sec7-header {
+    max-width: 1920px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.sec7-word {
+    max-width: 427px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec7-news {
+    max-width: 91px;
+    width: 100%;
+    font-size: 13px;
+    color: #2ED279;
+
+}
+
+.sec7-latest {
+    max-width: 427px;
+    width: 100%;
+    font-size: 70px;
+}
+
+.part-lil-word {
+    font-size: 14px;
+    margin-top: 33px;
+}
+
+.part-header {
+    font-size: 40px;
+    margin-top: 5px;
+}
+
+.part-innertxt {
+    max-width: 549px;
+    width: 100%;
+    margin-top: 27px;
+}
+
+.sec7-read-more {
+    margin-top: 10px;
+    margin-bottom: 139px;
+    font-size: 25px;
+}
+
+.sec7-icon {
+    max-width: 165px;
+    width: 100%;
+    margin-top: 79px;
+}
+
+.sec7-part-main {
+    display: flex;
+    flex-direction: column;
+    background-color: #FAFAFA;
+    max-width: 800px;
+    width: 100%;
+
+}
+
+.sec7-mid {
+    max-width: 123px;
+    width: 100%;
+    background-color: #15263E;
+}
+
+.years {
+    transform: rotate(-180deg);
+    font-size: 30px;
+    color: #E93656;
+    max-width: 167px;
+    width: 100%;
+    writing-mode: vertical-rl;
+    display: flex;
+    align-items: center;
+    margin-top: 230px;
+}
+
+.sec7-img-space {
+    max-width: 827px;
+    width: 100%;
+    background-color: #E1E0DC;
+}
+
+.sec7-part1 {
+    max-width: 1750px;
+    width: 100%;
+    display: flex;
+    margin-top: 80px;
+}
+
+.sec7-part2 {
+    max-width: 1750px;
+    width: 100%;
+    display: flex;
+    margin-top: 80px;
+}
+
+.pad-insec {
+    padding-left: 70px;
+}
+
+.visual1 {
+    display: flex;
+    justify-content: right;
+}
+
+.visual2 {
+    display: flex;
+    justify-content: left;
 }
