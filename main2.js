@@ -199,6 +199,3 @@ sec6Project(sec6Proj22, projWord22)
 sec6Project(sec6Proj33, projWord33)
 sec6Project(sec6Proj44, projWord44)
 sec6Project(sec6Proj55, projWord55)
-
-
-

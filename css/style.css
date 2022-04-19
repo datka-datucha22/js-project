@@ -674,6 +674,7 @@
     max-width: 50px;
     width: 100%;
     margin-bottom: 20px;
+    cursor: pointer;
 }
 
 .proj-word1 {
@@ -1054,6 +1055,20 @@
     height: 50px;
 }
 
+.first3-1 {
+    margin-top: 20px;
+    max-width: 290px;
+    width: 100%;
+    height: 50px;
+}
+
+.first3-2 {
+    margin-top: 20px;
+    max-width: 290px;
+    width: 100%;
+    height: 50px;
+}
+
 .form {
     max-width: 900px;
     width: 100%;
@@ -1104,4 +1119,70 @@
     height: 50px;
     color: #E93656;
     cursor: pointer;
+}
+
+.section10 {
+    max-width: 1920;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/footer/pattern\ here.png);
+}
+
+.datka {
+    color: white;
+    font-size: 55px;
+}
+
+.lorem {
+    color: grey;
+    max-width: 613px;
+    width: 100%;
+    font-size: 17px;
+}
+
+#datka {
+    padding-top: 108px;
+    display: flex;
+    justify-content: center;
+    max-width: 1920px;
+    width: 100%;
+}
+
+#lorem {
+    padding-top: 28px;
+    display: flex;
+    justify-content: center;
+    max-width: 1920px;
+    width: 100%;
+}
+
+.footer-icons {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 300px;
+    width: 100%;
+    padding-bottom: 50px;
+
+}
+
+footer {
+    max-width: 1920px;
+    width: 100%;
+    background-color: #171717;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-span {
+    color: grey;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.datka-c {
+    color: white;
 }
