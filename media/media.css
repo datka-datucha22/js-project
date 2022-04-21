@@ -56,4 +56,58 @@
     .sec6-proj55 {
         display: none;
     }
+
+    .mid-me {
+        margin-left: 30px;
+    }
+
+    .sec3-part {
+        margin-left: 30px;
+    }
+
+    .sec4 {
+        margin-left: 90px;
+    }
+
+}
+
+@media (max-width:1024px) {
+    .sec2-3 {
+        display: none;
+    }
+
+    .sec7-img-space {
+        width: 400px;
+        height: 590px;
+    }
+
+    .sec7-mid {
+        height: 590px;
+
+    }
+
+    .sec7-part {
+        height: 590px;
+    }
+
+    .sec7-icon {
+        margin: 0;
+    }
+
+    .sec7-img {
+        width: 400px;
+        height: 590px;
+    }
+
+    .sec7-part-main {
+        width: 500px;
+    }
+
+    /* .sec4 {
+        margin-left: 70px;
+    }
+
+    .sec6 {
+        margin-left: 110px;
+    } */
 }
